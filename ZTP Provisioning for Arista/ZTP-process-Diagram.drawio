@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-29T22:07:58.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cAe2lVAttayFgCEDJJrC" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T04:56:32.502Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jVHcRre_p5MtRNDJ8F67" version="22.1.16" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1072" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1053" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,8 +102,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bCRU6YlXV68KjKm_1EpI-49" value="&lt;b&gt;DHCP OFFER&lt;/b&gt;&lt;br&gt;with option 66 &amp;amp; 67" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="319.5" y="322" width="120.5" height="30" as="geometry" />
+        <mxCell id="bCRU6YlXV68KjKm_1EpI-49" value="&lt;b&gt;DHCP OFFER&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="319.5" y="322" width="120.5" height="18" as="geometry" />
         </mxCell>
         <mxCell id="bCRU6YlXV68KjKm_1EpI-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="634.5" y="400" width="10" height="41" as="geometry" />
@@ -121,8 +121,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bCRU6YlXV68KjKm_1EpI-55" value="&lt;b&gt;DHCP REQUEST&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="321" y="380" width="111" height="20" as="geometry" />
+        <mxCell id="bCRU6YlXV68KjKm_1EpI-55" value="&lt;b&gt;DHCP REQUEST&lt;br&gt;&lt;/b&gt;requesting option 66 &amp;amp; 67 and IP&amp;nbsp;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="321" y="370" width="199" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bCRU6YlXV68KjKm_1EpI-56" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -150,8 +150,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bCRU6YlXV68KjKm_1EpI-61" value="&lt;b&gt;GO to File server&lt;br&gt;&lt;/b&gt;using option 66" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="321" y="489" width="119" height="30" as="geometry" />
+        <mxCell id="bCRU6YlXV68KjKm_1EpI-61" value="&lt;b&gt;GO to File server&lt;br&gt;&lt;/b&gt;Location of the file server in option 66" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="321" y="489" width="219" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bCRU6YlXV68KjKm_1EpI-62" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -160,7 +160,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bCRU6YlXV68KjKm_1EpI-63" value="&lt;b&gt;Download startup-config file&lt;br&gt;&lt;/b&gt;using option 67" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="bCRU6YlXV68KjKm_1EpI-63" value="&lt;b&gt;Fetches startup-config file&lt;br&gt;&lt;/b&gt;using option 67" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="321" y="570" width="179" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bkYHlDmEabNvsH-bivcV-1" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
